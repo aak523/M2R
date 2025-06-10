@@ -9,8 +9,10 @@ As discussed in our paper, we did initially convert the given directed graph int
 We also briefly experimented with the original directed form of the graph (`sev_directed.ipynb`).
 
 ### Requirements
-*Standard Python packages:* NumPy, pandas, NetworkX.
-*For plotting:* seaborn, Matplotlib.
+- *Standard Python packages:* NumPy, pandas, NetworkX.
+
+- *For plotting:* seaborn, Matplotlib.
+
 You will also need to install the [severability library](https://github.com/barahona-research-group/severability), as described in their `README`.
 
 ### Dataset Source
