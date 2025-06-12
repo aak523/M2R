@@ -1,6 +1,6 @@
-This repository contains the code used to calculate severability for some large networks, to generate some visulations/analysis for the second graph used.
+This repository contains the code used to calculate **severability** for a large network, to generate some visulations/analysis for the second graph used.
 
-We undertook this analysis for a second-year Maths group research project, on the topic of Random Walks on Graphs, at Imperial College London. Many thanks to our supervisor Prof. Mauricio Barahona.
+We undertook this analysis for a second-year Maths group research project, on the topic of Random Walks on Graphs, at Imperial College London. Many thanks to our supervisor Prof. Mauricio Barahona, as well as Juni Schindler and Tim Liu for their support.
 
 We found a **Twitter interaction network** for the 117th United States Congress, both House of Representatives and Senate, and thought it might be interesting to analyse. The base data was collected via Twitter’s API, then the empirical transmission probabilities were quantified according to the fraction of times one member retweeted, quote tweeted, replied to, or mentioned another member’s tweet. For more information, check out [the relevant paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC10493874/).
 
@@ -9,7 +9,7 @@ As discussed in our paper, we did initially convert the given directed graph int
 We also briefly experimented with the original directed form of the graph (`sev_directed.ipynb`).
 
 ### Requirements
-- *Standard Python packages:* NumPy, pandas, NetworkX.
+- *Used throughout:* NumPy, pandas, NetworkX.
 
 - *For plotting:* seaborn, Matplotlib.
 
